@@ -7,7 +7,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>Student Gyan Movement - SGM</title>
-        <meta name="An educational initiative taken by the stuents of IIITM" content="Student Gyan Movement - SGM" />
+        <meta name="An educational initiative taken by the stuents of ABV-IIITM Gwalior" content="Student Gyan Movement - SGM" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
