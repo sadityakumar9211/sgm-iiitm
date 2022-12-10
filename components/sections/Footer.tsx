@@ -111,11 +111,11 @@ export default function Footer() {
         </div>
       </div>
       {/* big footer ends here */}
-      
+
       {/* mobile footer starts here */}
-      <div className="md:hidden">
+      <div className="md:hidden flex flex-col">
         <div className="text-xl font-montserrat">We are Social :&#41;</div>
-        <div className="flex flex-row space-x-4 mx-auto">
+        <div className="flex flex-row space-x-4 object-contain mx-auto">
           <div>
             <img
               src="/facebook.png"
@@ -137,7 +137,7 @@ export default function Footer() {
         <div className="text-lg font-montserrat py-2 w-full">
           mail us at: sgm@iiitm.ac.in
         </div>
-        <div className="flex flex-row space-x-4 mx-auto py-2">
+        <div className="flex flex-row space-x-4 py-2 object-contain mx-auto">
           <div>
             <img
               src="/institute_logo.png"
