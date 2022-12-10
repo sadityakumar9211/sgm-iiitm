@@ -6,6 +6,7 @@ import FourthSection from "../components/sections/FourthSection";
 import FifthSection from "../components/sections/FifthSection";
 import SixthSection from "../components/sections/SixthSection";
 import Footer from "../components/sections/Footer";
+import GoToTop from "../components/sections/GoToTop";
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
       </Head>
 
       <main>
+        <GoToTop />
         <FirstSection />
         <SecondSection />
         <ThirdSection />

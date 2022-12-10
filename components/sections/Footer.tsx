@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <footer className="flex flex-col text-center bg-brown4 py-12 mt-12 px-2">
+    <footer className="flex flex-col text-center bg-brown4 pt-12 pb-16 mt-12 px-2">
       {/* big footer starts here */}
       <div className="md:flex flex-col hidden">
         <div className="flex flex-row justify-around pb-16">
