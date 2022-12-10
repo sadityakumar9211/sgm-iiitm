@@ -10,7 +10,7 @@ export default function FirstSection() {
 
   return (
     // first section starts here
-    <section className="section1">
+    <section className="section1 pt-2">
       {/* navbar starts here */}
       <nav className="py-1 border-0 relative z-30">
         <div className="px-6 md:px-6 mx-auto">
@@ -54,8 +54,8 @@ export default function FirstSection() {
                   className="ml-3"
                   src="/donation_icon.png"
                   alt="donate logo"
-                  width="25"
-                  height="15"
+                  width="20"
+                  height="10"
                 ></Image>
               </div>
             </div>
@@ -69,7 +69,7 @@ export default function FirstSection() {
                       fill="none"
                       viewBox="0 0 24 24"
                       strokeWidth={3.5}
-                      stroke="#705330"
+                      stroke="#FCEFE0"
                       className="w-6 h-6"
                     >
                       <path
@@ -88,7 +88,7 @@ export default function FirstSection() {
                       fill="none"
                       viewBox="0 0 24 24"
                       strokeWidth={2.5}
-                      stroke="#705330"
+                      stroke="#FCEFE0"
                       className="w-6 h-6"
                     >
                       <path
@@ -105,7 +105,7 @@ export default function FirstSection() {
         </div>
         {/* mobile menu goes here */}
         {isMenuOpen && (
-          <div className="absolute right-6 w-4/12 my-3 mr-4 py-3 flex border rounded-lg text-yellow-700 bg-yellow-50 md:hidden">
+          <div className="absolute right-6 w-5/12 my-1 mr-4 py-2 flex border rounded-lg text-yellow-700 bg-yellow-50 md:hidden">
             <div className="flex">
               <div className="justify-items-start text-left pl-3">
                 <div className="hover:text-yellow-900 transition-all hover:font-bold py-1 pl-4 pr-3">
@@ -132,7 +132,7 @@ export default function FirstSection() {
 
       {/* remaining section starts here */}
       <div className="flex flex-col md:flex-row justify-between pb-32 md:items-end">
-        <div className="pl-4 pt-4 md:pt-8 md:w-2/5">
+        <div className="pl-6 pt-8 md:pt-12 md:w-2/5">
           <div className="border_bottom mb-3">
             <h1 className="text-xl md:text-4xl font-semibold font-montserrat text-yellow-50">
               <span className="inline">Student Gyan Movement</span>
