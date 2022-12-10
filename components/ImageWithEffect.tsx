@@ -1,23 +1,22 @@
 import Image from "next/image";
+import { useState, useEffect } from "react";
 
 export default function ImageWithEffect(props: any) {
-  const customStyle = {
-    backgroundPosition: "center",
-    backgroundSize: "auto",
-  };
-  return (
-    <>
-      <div className="bg-blue-500/50 w-full h-64">
-        <img
-          src={props.source}
-          alt={props.imageTitle}
-          style={customStyle}
-          className="h-64 w-full"
-        />
 
-        <div className="relative -top-20 px-6 z-40">
-          <h2 className="text-xl font-montserrat-700 text-white">{props.imageTitle}</h2>
-          <h3 className="text-md font-montserrat-700 text-white">{props.imageDate}</h3>
+console.log("The props are: -", props.source)
+  const customClass = `bg-[url(/${props.source})] w-full md:h-60 h-56 bg-center bg-cover`
+  const customColorClass = `w-full h-full bg-${props.color}-500/50 z-20 text-white`
+  return (
+    
+    <>
+      <div className="w-full md:w-1/2 md:h-60 h-56">
+        <div className={customClass}>
+          <div className={customColorClass}>
+            <div className="pt-32 md:pt-40 pl-8">
+              <div>{props.title}</div>
+              <div>{props.date}</div>
+            </div>
+          </div>
         </div>
       </div>
     </>
