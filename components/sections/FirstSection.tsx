@@ -33,16 +33,16 @@ export default function FirstSection() {
               <a href="#" className="hover:text-yellow-900">
                 Home
               </a>
-              <a href="#" className="hover:text-yellow-900">
+              <a href="#our-mission" className="hover:text-yellow-900">
                 Our Mission
               </a>
-              <a href="#" className="hover:text-yellow-900">
+              <a href="#events" className="hover:text-yellow-900">
                 Events
               </a>
-              <a href="#" className="hover:text-yellow-900">
+              <a href="#captures" className="hover:text-yellow-900">
                 Captures
               </a>
-              <a href="#" className="hover:text-yellow-900">
+              <a href="#sgm-family" className="hover:text-yellow-900">
                 SGM Family
               </a>
             </div>
@@ -112,16 +112,16 @@ export default function FirstSection() {
                   <a href="#">Home</a>
                 </div>
                 <div className="hover:text-yellow-900 transition-all hover:font-bold py-1 pl-4 pr-3">
-                  <a href="#">Our Mission</a>
+                  <a href="#our-mission">Our Mission</a>
                 </div>
                 <div className="hover:text-yellow-900 transition-all hover:font-bold py-1 pl-4 pr-3">
-                  <a href="#">Events</a>
+                  <a href="#events">Events</a>
                 </div>
                 <div className="hover:text-yellow-900 transition-all hover:font-bold py-1 pl-4 pr-3">
-                  <a href="#">Captures</a>
+                  <a href="#captures">Captures</a>
                 </div>
                 <div className="hover:text-yellow-900 transition-all hover:font-bold py-1 pl-4 pr-3">
-                  <a href="#">SGM Family</a>
+                  <a href="#sgm-family">SGM Family</a>
                 </div>
               </div>
             </div>

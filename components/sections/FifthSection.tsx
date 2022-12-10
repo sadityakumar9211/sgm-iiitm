@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function FifthSection() {
   return (
     <>
-      <section className="px-6 py-10 flex flex-col md:flex-row md:justify-between">
+      <section className="px-6 py-10 flex flex-col md:flex-row md:justify-between" id="sgm-family">
         <div className="w-full md:w-7/12 py-6">
           <h2 className="text-lg md:text-2xl font-semibold font-montserrat text-black">
             SGM Family

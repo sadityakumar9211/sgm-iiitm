@@ -4,7 +4,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 export default function FourthSection() {
   return (
-    <section className="pb-8">
+    <section className="pb-8" id="captures">
       <h2 className="px-6 text-lg md:text-2xl font-semibold font-montserrat text-black pb-8 mt-8">
         Captures
       </h2>

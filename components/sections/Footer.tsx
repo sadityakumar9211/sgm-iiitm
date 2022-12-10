@@ -24,34 +24,36 @@ export default function Footer() {
           <div>
             <div className="text-left text-brown2 font-semibold">Explore</div>
             <a
-              href="#"
+              href="#our-mission"
               className="font-montserrat text-md text-brown3 text-left block"
             >
               Our Mission
             </a>
             <a
-              href="#"
+              href="#events"
               className="font-montserrat text-md text-brown3 text-left block"
             >
               Events
             </a>
             <a
-              href="#"
+              href="#captures"
               className="font-montserrat text-md text-brown3 text-left block"
             >
               Captures
             </a>
             <a
-              href="#"
+              href="#sgm-family"
               className="font-montserrat text-md text-brown3 text-left block"
             >
-              Our Team
+              SGM Family
             </a>
           </div>
           <div>
-            <div className="text-left text-brown2 font-semibold">Contact Us</div>
+            <div className="text-left text-brown2 font-semibold">
+              Contact Us
+            </div>
             <a
-              href="#"
+              href="mailto:sgm@iiitm.ac.in"
               className="font-montserrat text-md text-brown3 text-left block"
             >
               sgm@iiitm.ac.in
@@ -64,45 +66,47 @@ export default function Footer() {
             </a>
           </div>
           <div>
-            <div className="text-center text-brown2 font-semibold">We are Social :&#41;</div>
+            <div className="text-center text-brown2 font-semibold">
+              We are Social :&#41;
+            </div>
             <div>
               <div className="flex flex-row space-x-4 mx-auto">
-                <div>
+                <a href="#facebook">
                   <img
                     src="/facebook.png"
                     alt="Facebook Icon"
-                    className="w-10 h-10"
+                    className="w-10 h-10 block"
                   />
-                </div>
-                <div>
+                </a>
+                <a href="#instagram">
                   <img
                     src="/instagram.png"
                     alt="Instagram Icon"
-                    className="w-10 h-10"
+                    className="w-10 h-10 block"
                   />
-                </div>
-                <div>
+                </a>
+                <a href="#youtube">
                   <img
                     src="/youtube.png"
                     alt="Youtube Icon"
-                    className="w-10 h-10"
+                    className="w-10 h-10 block"
                   />
-                </div>
+                </a>
               </div>
             </div>
           </div>
         </div>
         <div className="flex flex-row pl-12 space-x-8">
-          <div>
+          <a href="https://iiitm.ac.in">
             <img
               src="/institute_logo.svg"
               alt="IIITM Logo"
-              className="w-16 h-20"
+              className="w-16 h-20 block"
             />
-          </div>
-          <div>
-            <img src="/logo.svg" alt="SGM Logo" className="w-20 h-20" />
-          </div>
+          </a>
+          <a href="#">
+            <img src="/logo.svg" alt="SGM Logo" className="w-20 h-20 block" />
+          </a>
           <div className="text-left pl-20 items-center font-montserrat text-md text-brown2">
             <p>Student Gyan Movement</p>
             <p>
