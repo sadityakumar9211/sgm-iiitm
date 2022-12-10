@@ -8,14 +8,14 @@ export default function FifthSection() {
           <h2 className="text-lg md:text-2xl font-semibold font-montserrat text-black">
             SGM Family
           </h2>
-          <p className="md:text-md font-montserrat text-yellow-900 w-full md:w-4/5 text-justify">
+          <p className="md:text-md font-montserrat text-brown3 w-full md:w-4/5 text-justify">
             SGM IIITM Gwalior is mentored by the Director of our esteemed
             institute Prof. S.N. Singh and Faculty Coordinator, Prof. Joydip
             Dhar (DOSA ABV-IIITM). The student team has two departments namely
             Teaching and Management.
           </p>
         </div>
-        <div className="w-full md:w-5/12 text-yellow-900">
+        <div className="w-full md:w-5/12 text-brown1">
           <div className="flex flex-col md:flex-row justify-around text-center font-montserrat-700">
             <div>
               <Image

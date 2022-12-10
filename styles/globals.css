@@ -26,19 +26,19 @@ a {
   body {
     color: white;
     background: black;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
   }
 }
 
-.button_class{
-  @apply uppercase text-sm py-2 px-8 hover:cursor-pointer bg-yellow-50 text-yellow-900 border-0 rounded-md transition-all duration-200 border-yellow-900 hover:text-yellow-900 hover:scale-105;
+.button_class {
+  @apply uppercase text-sm py-2 px-8 hover:cursor-pointer bg-yellow-50 text-brown1 border-0 rounded-md transition-all duration-200 border-yellow-900 hover:text-brown2 md:tracking-wider tracking-widest hover:scale-105;
 }
 
 .card {
-  @apply px-2 py-4 border-0 rounded-md shadow-md transition-all duration-100 
+  @apply px-2 py-4 border-0 rounded-md shadow-md transition-all duration-100;
 }
 .section1 {
-  background-image: url('/blackboard.png');
+  background-image: url("/blackboard.png");
   background-size: cover;
   background-position: center;
 }
@@ -49,7 +49,7 @@ a {
 }
 @media (max-width: 768px) {
   .section1 {
-    height: 66.3vh;  /* experimented property value here*/
+    height: 66.3vh; /* experimented property value here*/
   }
 }
 .border_bottom {

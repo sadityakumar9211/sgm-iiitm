@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="md:flex flex-col hidden">
         <div className="flex flex-row justify-around pb-16">
           <div>
-            <div className="text-left text-brown1">General</div>
+            <div className="text-left text-brown2 font-semibold">General</div>
             <a
               href="#"
               className="font-montserrat text-md text-brown3 text-left block"
@@ -22,7 +22,7 @@ export default function Footer() {
             </a>
           </div>
           <div>
-            <div className="text-left text-brown1">Explore</div>
+            <div className="text-left text-brown2 font-semibold">Explore</div>
             <a
               href="#"
               className="font-montserrat text-md text-brown3 text-left block"
@@ -49,7 +49,7 @@ export default function Footer() {
             </a>
           </div>
           <div>
-            <div className="text-left text-brown1">Contact Us</div>
+            <div className="text-left text-brown2 font-semibold">Contact Us</div>
             <a
               href="#"
               className="font-montserrat text-md text-brown3 text-left block"
@@ -64,7 +64,7 @@ export default function Footer() {
             </a>
           </div>
           <div>
-            <div className="text-center text-brown1">We are Social :&#41;</div>
+            <div className="text-center text-brown2 font-semibold">We are Social :&#41;</div>
             <div>
               <div className="flex flex-row space-x-4 mx-auto">
                 <div>
@@ -103,7 +103,7 @@ export default function Footer() {
           <div>
             <img src="/logo.svg" alt="SGM Logo" className="w-20 h-20" />
           </div>
-          <div className="text-left pl-20 items-center font-montserrat text-md text-brown1">
+          <div className="text-left pl-20 items-center font-montserrat text-md text-brown2">
             <p>Student Gyan Movement</p>
             <p>
               ABV-Indian Institute of Information Technology and Management
@@ -137,7 +137,7 @@ export default function Footer() {
             <img src="/youtube.png" alt="Youtube Icon" className="w-10 h-10" />
           </div>
         </div>
-        <div className="text-lg font-montserrat py-2 w-full text-brown1">
+        <div className="text-lg font-montserrat py-2 w-full text-brown2">
           mail us at: sgm@iiitm.ac.in
         </div>
         <div className="flex flex-row space-x-4 py-2 object-contain mx-auto">
@@ -152,13 +152,13 @@ export default function Footer() {
             <img src="/logo.svg" alt="SGM Logo" className="w-12 h-12" />
           </div>
         </div>
-        <div className="md:text-md font-montserrat text-yellow-900 w-full md:w-4/5">
+        <div className="md:text-md font-montserrat text-brown2 w-full md:w-4/5">
           Student Gyan Movement
         </div>
-        <div className="md:text-md font-montserrat text-yellow-900 w-full md:11/12">
+        <div className="md:text-md font-montserrat text-brown2 w-full md:11/12">
           ABV-Indian Institute of Information Technology and Management Gwalior,{" "}
         </div>
-        <div className="md:text-md font-montserrat text-yellow-900 w-full md:w-4/5">
+        <div className="md:text-md font-montserrat text-brown2 w-full md:w-4/5">
           Morena Link Road, Gwalior, Madhya Pradesh, India, 474015.
         </div>
       </div>
