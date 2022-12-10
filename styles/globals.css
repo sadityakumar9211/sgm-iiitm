@@ -26,5 +26,32 @@ a {
   body {
     color: white;
     background: black;
+    font-family: 'Montserrat', sans-serif;
   }
+}
+
+.button_class{
+  @apply uppercase text-sm py-2 px-8 hover:cursor-pointer bg-yellow-50 text-yellow-900 border-0 rounded-md transition-all duration-200 border-yellow-900 hover:text-yellow-900 hover:scale-105;
+}
+
+.card {
+  @apply px-2 py-4 border-0 rounded-md shadow-md transition-all duration-100 
+}
+.section1 {
+  background-image: url('/blackboard.png');
+}
+@media (min-width: 768px) {
+  .section1 {
+    height: 83.6vh;
+  }
+}
+@media (max-width: 768px) {
+  .section1 {
+    height: 65.7vh;  /* experimented property value here*/
+  }
+}
+.border_bottom {
+  border-bottom: 1px solid #e2e8f0;
+  padding-bottom: 1.5rem;
+  width: fit-content;
 }
