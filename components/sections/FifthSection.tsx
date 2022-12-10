@@ -39,7 +39,7 @@ export default function FifthSection() {
                 className="mx-auto"
               />
               <p>Prof. Joydip Dhar</p>
-              <p>Dean of Students' Affairs</p>
+              <p>Dean of Student Affairs</p>
               <p>ABV-IIITM Gwalior</p>
             </div>
           </div>

@@ -41,7 +41,10 @@ export default function Footer() {
             >
               Captures
             </a>
-            <a className="font-montserrat text-md text-brown3 text-left block">
+            <a
+              href="#"
+              className="font-montserrat text-md text-brown3 text-left block"
+            >
               Our Team
             </a>
           </div>
@@ -61,7 +64,7 @@ export default function Footer() {
             </a>
           </div>
           <div>
-            <div className="text-left">We are Social :&#41;</div>
+            <div className="text-center">We are Social :&#41;</div>
             <div>
               <div className="flex flex-row space-x-4 mx-auto">
                 <div>
@@ -89,7 +92,7 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        <div className="flex flex-row pl-6 space-x-8">
+        <div className="flex flex-row pl-12 space-x-8">
           <div>
             <img
               src="/institute_logo.png"
@@ -100,7 +103,7 @@ export default function Footer() {
           <div>
             <img src="/logo.svg" alt="SGM Logo" className="w-20 h-20" />
           </div>
-          <div className="text-left pl-12 items-center font-montserrat text-md">
+          <div className="text-left pl-20 items-center font-montserrat text-md">
             <p>Student Gyan Movement</p>
             <p>
               ABV-Indian Institute of Information Technology and Management
