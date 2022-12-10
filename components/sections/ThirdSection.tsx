@@ -4,7 +4,7 @@ import ImageWithEffect from "../ImageWithEffect";
 export default function ThirdSection() {
   return (
     <>
-      <section className="py-8">
+      <section className="pb-12 pt-4">
         <div className="flex flex-col">
           <div className="flex md:flex-row flex-col overflow-hidden">
             <div className="w-full md:w-1/2 md:h-60 h-56">

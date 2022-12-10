@@ -10,7 +10,7 @@ export default function FirstSection() {
 
   return (
     // first section starts here
-    <section className="section1 bg-cover bg-center">
+    <section className="section1">
       {/* navbar starts here */}
       <nav className="py-1 border-0 relative z-30">
         <div className="px-6 md:px-6 mx-auto">
@@ -131,7 +131,7 @@ export default function FirstSection() {
       {/* Navbar ends here */}
 
       {/* remaining section starts here */}
-      <div className="flex flex-col md:flex-row justify-between">
+      <div className="flex flex-col md:flex-row justify-between pb-32 md:items-end">
         <div className="pl-4 pt-4 md:pt-8 md:w-2/5">
           <div className="border_bottom mb-3">
             <h1 className="text-xl md:text-4xl font-semibold font-montserrat text-yellow-50">
@@ -148,16 +148,16 @@ export default function FirstSection() {
             Donate
           </button>
         </div>
-        <div className="relative md:w-3/5">
+        <div className="relative md:w-3/5 flex flex-row">
           <img
-            src="/logo.svg"
+            src="/logo.png"
             alt="SGM Logo"
-            className="absolute -top-24 md:-right-2 md:w-full md:-top-48 overflow-hidden"
+            className="absolute -top-24 md:-right-2 md:w-full md:-top-48 left-0 bottom-0"
           />
           <img
-            src="/children_image.png"
+            src="/children.svg"
             alt="photo of children"
-            className="relative mx-auto w-4/5 md:w-4/5 top-20 md:top-32"
+            className="relative mx-auto w-4/5 md:top-32 top-16"
           />
         </div>
       </div>

@@ -5,11 +5,10 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 export default function FourthSection() {
   return (
     <section className="pb-8">
-      <h2 className="px-6 text-lg md:text-2xl font-semibold font-montserrat text-black pt-16 pb-8 mt-8">
+      <h2 className="px-6 text-lg md:text-2xl font-semibold font-montserrat text-black pb-8 mt-8">
         Captures
       </h2>
       <div>
-        {/* <div className="">bulged down</div> */}
         <div className="">
           <Carousel
             autoPlay={true}
@@ -26,30 +25,29 @@ export default function FourthSection() {
             <div>
               <img
                 src="/art_competition.jpeg"
-                className="md:h-72 h-52 w-100px"
+                className="md:h-96 h-52 w-100px"
               />
             </div>
             <div>
-              <img src="/childrens_day.jpeg" className="md:h-72 h-52 w-100px" />
+              <img src="/childrens_day.jpeg" className="md:h-96 h-52 w-100px" />
             </div>
             <div>
               <img
                 src="/sunday_activity.jpeg"
-                className="md:h-72 h-52 w-100px"
+                className="md:h-96 h-52 w-100px"
               />
             </div>
             <div>
-              <img src="/teachers_day.jpeg" className="md:h-72 h-52 w-100px" />
+              <img src="/teachers_day.jpeg" className="md:h-96 h-52 w-100px" />
             </div>
             <div>
               <img
                 src="/science_modelling_competition.jpeg"
-                className="md:h-72 h-52 w-100px"
+                className="md:h-96 h-52 w-100px"
               />
             </div>
           </Carousel>
         </div>
-        {/* <div>bluged up</div> */}
       </div>
     </section>
   );

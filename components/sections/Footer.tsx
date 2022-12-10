@@ -95,7 +95,7 @@ export default function Footer() {
         <div className="flex flex-row pl-12 space-x-8">
           <div>
             <img
-              src="/institute_logo.png"
+              src="/institute_logo.svg"
               alt="IIITM Logo"
               className="w-16 h-20"
             />
@@ -143,9 +143,9 @@ export default function Footer() {
         <div className="flex flex-row space-x-4 py-2 object-contain mx-auto">
           <div>
             <img
-              src="/institute_logo.png"
+              src="/institute_logo.svg"
               alt="Institute Logo"
-              className="w-10 h-12"
+              className="w-12 h-12"
             />
           </div>
           <div>

@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function SecondSection() {
   return (
     <>
-      <section className="px-6 py-10 flex flex-col md:flex-row md:justify-between">
+      <section className="px-6 pt-16 pb-12 flex flex-col md:flex-row md:justify-between">
         <div className="w-full md:w-7/12 py-6">
           <h2 className="text-lg md:text-2xl font-semibold font-montserrat text-black">
             Our Mission

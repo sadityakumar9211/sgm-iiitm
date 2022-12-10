@@ -39,15 +39,17 @@ a {
 }
 .section1 {
   background-image: url('/blackboard.png');
+  background-size: cover;
+  background-position: center;
 }
 @media (min-width: 768px) {
-  .section1 {
-    height: 83.6vh;
-  }
+  /* .section1 {
+    height: 85vh;
+  } */
 }
 @media (max-width: 768px) {
   .section1 {
-    height: 65.7vh;  /* experimented property value here*/
+    height: 63.4vh;  /* experimented property value here*/
   }
 }
 .border_bottom {
