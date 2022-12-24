@@ -20,6 +20,6 @@ module.exports = {
         black: "#262626",
       },
     },
-    plugins: [],
+    plugins: [require("rippleui")],
   },
 };

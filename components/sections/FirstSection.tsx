@@ -146,13 +146,13 @@ export default function FirstSection() {
           </h3>
           <button className="relative button_class mt-4 md:mt-24 z-30">
             Donate
-          </button>
+          </button> 
         </div>
         <div className="relative md:w-3/5 flex flex-row">
           <img
             src="/logo.png"
             alt="SGM Logo"
-            className="absolute -top-24 md:-right-2 md:w-full md:-top-48 left-0 bottom-0"
+            className="absolute -top-24 md:-right-2 md:w-full md:-top-48 xl:-top-60 2xl:-top-72 left-0 bottom-0"
           />
           <img
             src="/children.svg"
