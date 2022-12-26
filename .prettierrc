@@ -1,0 +1,8 @@
+{
+    "singleQuote": true,
+    "useTaba": false,
+    "tabWidth": 4,
+    "semi": true,
+    "trailingComma": "none",
+    "pageWidth": 80
+}
