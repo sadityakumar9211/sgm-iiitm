@@ -9,7 +9,6 @@ export default function PaymentModalDesktop(props: any) {
   const validateAmount = () => {
     if (amount == "") setAmount(`50`);
     if (parseInt(amount) < 50) setAmount(`50`);
-    console.log("Amount Validated. Amount Should be between 50 and 5000");
   };
 
   return (
