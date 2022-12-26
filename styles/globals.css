@@ -59,3 +59,15 @@ a {
   padding-bottom: 1.5rem;
   width: fit-content;
 }
+
+.modal_position {
+  @apply fixed top-0 left-0 w-full h-full z-50 overflow-hidden flex justify-center items-center;
+}
+
+.custom_input{
+  @apply shadow border border-brown3 rounded-2xl py-2 px-4 mb-3 leading-tight focus:outline-brown1 focus:ring-offset-2 font-montserrat
+}
+
+.modal_button {
+  @apply uppercase text-sm py-2 px-8 hover:cursor-pointer bg-brown1 text-brown4 border-0 rounded-md transition-all duration-200 border-yellow-900 hover:text-brown1 md:tracking-wider tracking-widest hover:scale-105;
+}

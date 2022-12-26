@@ -1,12 +1,24 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Image from "next/image";
+import PaymentModalDesktop from "../PaymentModalDesktop";
+import PaymentModalMobile from "../PaymentModalMobile";
+import isMobile from "is-mobile";
 
 export default function FirstSection() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-
+  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [isMobileDevice, setIsMobileDevice] = useState(false);
   const handleMenuClick = () => {
     setIsMenuOpen(!isMenuOpen);
   };
+
+  const handleModal = () => {
+    setIsModalOpen(!isModalOpen);
+  };
+
+  useEffect(() => {
+    setIsMobileDevice(isMobile());
+  }, []);
 
   return (
     // first section starts here
@@ -48,8 +60,11 @@ export default function FirstSection() {
             </div>
             {/* secondary nav */}
             <div className="hidden md:block">
-              <div className="flex button_class drop-shadow cursor-pointer">
-                <a href="#">Donate</a>
+              <div
+                className="flex button_class drop-shadow cursor-pointer"
+                onClick={handleModal}
+              >
+                <a>Donate</a>
                 <Image
                   className="ml-3"
                   src="/donation_icon.png"
@@ -130,6 +145,8 @@ export default function FirstSection() {
       </nav>
       {/* Navbar ends here */}
 
+      {isModalOpen && <PaymentModalDesktop handleModal={handleModal} />}
+
       {/* remaining section starts here */}
       <div className="flex flex-col md:flex-row justify-between pb-32 md:items-end">
         <div className="pl-6 pt-8 md:pt-12 md:w-2/5">
@@ -144,9 +161,16 @@ export default function FirstSection() {
           <h3 className="md:text-xl font-montserrat text-yellow-50 mb-8">
             Not for me, but for the Nation
           </h3>
-          <button className="relative button_class mt-4 md:mt-24 z-30">
-            Donate
-          </button> 
+          {isMobileDevice ? (
+            <PaymentModalMobile />
+          ) : (
+            <button
+              className="relative button_class mt-4 md:mt-24 z-30"
+              onClick={handleModal}
+            >
+              Donate
+            </button>
+          )}
         </div>
         <div className="relative md:w-3/5 flex flex-row">
           <img
