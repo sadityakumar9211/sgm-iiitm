@@ -97,7 +97,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="flex flex-row pl-12 space-x-8">
-          <a href="https://iiitm.ac.in" target="_blank">
+          <a href="https://iiitm.ac.in" target="_blank"rel="noreferrer">
             <img
               src="/institute_logo.svg"
               alt="IIITM Logo"

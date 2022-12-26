@@ -1,5 +1,3 @@
-import Image from "next/image";
-import ImageWithEffect from "../ImageWithEffect";
 
 export default function ThirdSection() {
   return (
